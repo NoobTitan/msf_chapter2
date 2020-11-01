@@ -1,0 +1,17 @@
+Log file created at: 2020/11/01 21:09:38
+Running on machine: fengji-cuda
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1101 21:09:38.993445 10644 g2o_graph_optimizer.cpp:41] 
+------ 完成第 1 次后端优化 -------
+顶点数：950, 边数： 1904
+迭代次数： 19/512
+用时：0.101749
+优化前后误差变化：133432--->166.075
+
+I1101 21:13:25.833978 10644 g2o_graph_optimizer.cpp:41] 
+------ 完成第 2 次后端优化 -------
+顶点数：1900, 边数： 3851
+迭代次数： 21/512
+用时：0.314361
+优化前后误差变化：314022--->2173.79
+

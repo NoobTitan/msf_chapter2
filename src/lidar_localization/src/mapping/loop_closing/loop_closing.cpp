@@ -284,6 +284,8 @@ bool LoopClosing::JointMap(int key_frame_index, CloudData::CLOUD_PTR& map_cloud_
         
         if(scan_context_)
         {
+            std::cout << "闭环检测方式使用scan_context" << std::endl;
+            
             map_pose = all_key_frames_.at(i).pose;
             pcl::transformPointCloud(*cloud_ptr, *cloud_ptr, map_pose);
         }
